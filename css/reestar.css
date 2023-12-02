@@ -1,0 +1,72 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+@font-face{
+	font-family:'newfont';
+	src:../fonts/Roboto-Italic;
+}
+.header{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:20px;
+	width:100%;
+}
+ul,li{ display:inline-block;
+}
+li{
+	color:gray;
+	cursor:pointer;
+}
+li:hover {
+	color:red;
+}
+h1{
+	font-weight:bold;
+	font-family: 'newfont';
+	font-size:80px;
+}
+.image{
+	width:200px;
+	height:200px;
+	
+}
+
+.box{
+	
+    border:3px solid #000;
+	text-align:center;
+	display:inline-block;
+	width:200px;
+
+	font-family:'newfont';
+	margin:10px 0px;
+	
+}
+.product{
+text-align:center;
+margin-left:20px;
+
+}	
+
+.end{
+	background-color:black;
+	text-align:center;
+	color:white;
+	padding:25px;
+	margin:20px 0px;
+	width:100%;
+}
+.end,h2{
+	padding-bottom:20px;
+}
+
+.box,button{background-color:red;
+color:white;
+}
+	
+.button{background:black;
+padding:10px;
+}
+
